@@ -1,14 +1,14 @@
 name: Anphoenix
-author: dkstjs2
+author: Anphoenix
 baseurl: /developer/
-description: theme for jekyll
+description: 개발 블로그
 github: http://www.github.com/arnp
 twitter: http://www.twitter.com/
 facebook: http://www.facebook.com
 linkedin: http://www.linkedin.com
 email: gddjrh2@naver.com
 location: 42°2'16"N   70°12'47"W
-disqus: diqus-username
+disqus: diqus-anphoenix
 
 ##Make sure to edit the above fields, especially for disqus.
 
