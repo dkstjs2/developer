@@ -1,14 +1,12 @@
 ---
 title: Anphoenix
 ---
-<head><link rel="shortcut icon" href="favicon.ico">
-  <link rel="icon" type="image/gif" href="animated_favicon1.gif"></head>
 {% include showcase.html %}
 {% include greeting.html %}
 
 {% if site.posts != empty %}
 <div class="recent-posts">
-  <h1>Recent Posts</h1>
+  <h1>최근 포스트</h1>
   {% for post in site.posts limit: 3 %}
     {% if forloop.first %}
       {% assign add_class = 'most-recent' %}
@@ -35,7 +33,7 @@ title: Anphoenix
     {% assign fresh_tag = '' %}
   {% endfor %}
   <ul>
-    <a href="{{ site.baseurl }}/list.html">View More...</a>
+    <a href="{{ site.baseurl }}/list.html">더 보기...</a>
   </ul>
 </div>
 {% endif %}
