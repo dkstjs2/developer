@@ -13,7 +13,7 @@ disqus: diqus-anphoenix
 
 
 highlighter: rouge
-markdown: redcarpet
+# markdown: redcarpet
 redcarpet:
   extensions: ["tables"]
 
