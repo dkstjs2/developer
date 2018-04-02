@@ -6,7 +6,7 @@ title: Anphoenix
 {% include greeting.html %}
 
 {% if site.posts != empty %}
-<div class="recent-posts">
+<div class="my-recent-posts">
   <h1>최근 포스트</h1>
   {% for post in site.posts limit: 3 %}
     {% if forloop.first %}
