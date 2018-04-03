@@ -1,3 +1,6 @@
+Nginx 컴파일 에러 "Werror"
+==========================
+
 nginx를 소스설치 하는 과정에서 컴파일 후, make를 실행시키면 다음과 같은 에러가 종종 발생한다.
 
 `error: macro "__TIME__" might prevent reproducible builds [-Werror=date-time]`
