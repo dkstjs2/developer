@@ -9,7 +9,8 @@ Nginx 저장소 추가
 <br><br>
 Nginx 소스 다운 활성화
 `vi /etc/apt/sources.list.d/nginx-ubuntu-stable-xenial.list`<br>
-`deb-src http://ppa.launchpad.net/nginx/stable/ubuntu xenial main` 주석해제
+`deb-src http://ppa.launchpad.net/nginx/stable/ubuntu xenial main` 주석해제<br>
+`apt update` 저장소 업데이트
 <br><br>
 Nginx 소스 다운로드<br>
 `cd ......./nginx/ && apt source nginx`<br>
@@ -22,7 +23,7 @@ Nginx 소스 다운로드<br>
 <br><br>
 확인<br>
 `ls`<br>
-`nginx-1.12.2  nginx-full_1.12.2-0+xenial0_amd64.deb  nginx_1.12.2-0+xenial0.debian.tar.xz  nginx_1.12.2-0+xenial0.dsc <br> nginx_1.12.2.orig.tar.gz`<br>
+`nginx-1.12.2 nginx-full_1.12.2-0+xenial0_amd64.deb nginx_1.12.2-0+xenial0.debian.tar.xz nginx_1.12.2-0+xenial0.dsc nginx_1.12.2.orig.tar.gz`<br>
 <br><br>
 컴파일 옵션에 모듈 추가. 다운받는 버전은 full버전이므로 full_configure_flags 항목에 모듈을 추가해준다.<br>
 `vi debian/rules`<br>
