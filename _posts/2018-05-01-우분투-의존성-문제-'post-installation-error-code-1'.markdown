@@ -8,7 +8,7 @@
 패키지 설치 중 오류가 생긴 것이므로, 당연히 패키지 설치 정보를 담고 있는 파일을 삭제하면 된다.
 그렇다면 그 위치는 어디일까? 다음 경로에 위치해있다.
 <br>`/var/lib/dpkg/info`
-<br>오류 또는 손상된 패키지가 nginx라면, nginx어쩌구저쩌구.list 같은 파일들이 존재할 것인데, nginx와 관련된 파일을 아.예 싹다 지워버리면 된다.
+<br>설치 정보를 담고 있는 파일을 삭제한다.
 
-`rm -rf /var/lib/dpkg/info/nginx*`
+`rm -rf /var/lib/dpkg/info/install-info*`
 <br>삭제 후, 패키지가 올바르게 작동하는 것을 볼 수 있다.
