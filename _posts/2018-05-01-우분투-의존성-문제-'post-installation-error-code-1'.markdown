@@ -8,9 +8,9 @@
 
 보통 패키지 오류는 일명 '찌꺼기 파일'이 남아있거나, 패키지가 망가지는 경우에 종종 발생하므로 패키지 셋팅을 올바르게 잡을 필요가 있다.
 
-`apt -f install`
-`dpkg-reconfigure nginx-full`
-`dpkg -l | grep nginx* -> 나오는 파일 전부 제거(apt remove --purge)`
+`apt -f install`<br>
+`dpkg-reconfigure nginx-full`<br>
+`dpkg -l | grep nginx* -> 나오는 파일 전부 제거(apt remove --purge)`<br>
 
 <br>세팅 후, 패키지가 올바르게 작동하는 것을 볼 수 있다.<br>
 `apt install nginx-full`
